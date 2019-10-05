@@ -2,6 +2,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 
 module.exports = {
+  plugins: ['@vuepress/pwa'],
   base: "/technotes/",
   title: "Personal Tech notes",
   redirectPath: "/en/",
@@ -11,7 +12,10 @@ module.exports = {
       title: "TechNotes",
     }
   },
-
+  head: [
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'icon', href: '/icon.png' }],
+  ],
   themeConfig: {
     // defaults to false, set to true to enable
     editLinks: true,
@@ -39,6 +43,15 @@ module.exports = {
                   "en/vuejs/",
                   "en/vuejs/vuepress/",
                   "en/vuejs/nuxtjs/",]
+              }
+            ]
+          },
+          {
+            title: "Tools",
+            children: ["en/tools/",
+              {
+                title: 'Git',
+                children: ["en/tools/git-hacks"]
               }
             ]
           }

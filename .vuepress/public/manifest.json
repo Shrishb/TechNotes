@@ -1,0 +1,14 @@
+{
+    "name": "TechNotes",
+    "short_name": "PWA Site",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone"
+  }
+  

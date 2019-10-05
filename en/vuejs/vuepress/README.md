@@ -4,8 +4,6 @@ tags: ["vuepress", "vuejs"]
 
 # Vuepress
 
-[[toc]]
-
 <TagLinks />
 
 ## links
@@ -17,4 +15,3 @@ tags: ["vuepress", "vuejs"]
 
 - [Adding Tags to Vuepress](https://code.roygreenfeld.com/cookbook/adding-tags-to-vuepress.html)
 
-## troubleshoots
