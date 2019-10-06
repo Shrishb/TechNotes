@@ -21,12 +21,12 @@ module.exports = {
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: "Help us improve this page!",
-    logo: "https://img.icons8.com/dotty/344/learning.png",
     serviceWorker: {
       updatePopup: true // Boolean | Object, default to undefined.
     },
     nav: [
       { text: "Home", link: "/" },
+      { text: "Docs", link: "/en/" },
     ],
     locales: {
       "/en/": {
@@ -47,19 +47,20 @@ module.exports = {
             ]
           },
           {
-            title: "Tools",
-            children: ["en/tools/",
+            title: "Development Tools",
+            collapsable: false,
+            children: [
               {
-                title: 'Git',
-                children: ["en/tools/git-hacks"]
+                title: "Tools",
+                children: [
+                  "en/tools/Git",
+                  "en/tools/Markdown"]
               }
             ]
-          }
+           }
         ]
-      }
     }
   },
-
   configureWebpack: {
     plugins: [new BundleAnalyzerPlugin({
       openAnalyzer: false,
@@ -67,5 +68,6 @@ module.exports = {
       generateStatsFile: true,
       analyzerMode: 'static'
     })]
+  }
   }
 };
