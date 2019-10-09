@@ -8,7 +8,6 @@ tags: ["vuepress", "vuejs"]
 
 ## links
 
-- [https://vuepressbook.com/](https://vuepressbook.com/)
 - [https://vuepress-examples.netlify.com/](https://vuepress-examples.netlify.com/)
 
 ## tutorials

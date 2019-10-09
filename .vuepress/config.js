@@ -35,10 +35,10 @@ module.exports = {
         description: "Vue-powered Static Site Generator",
         sidebar: [
           {
-            title: "Front-end Development",
+            title: "Libraries",
             children: [
               {
-                title: "vuejs Ecosystem",
+                title: "Vuejs",
                 children: [
                   "en/vuejs/",
                   "en/vuejs/vuepress/",
@@ -47,14 +47,25 @@ module.exports = {
             ]
           },
           {
+            title: "Css",
+            children: [
+                {
+                  title: "Css reset",
+                  children: [
+                    "en/css/cssreset/"]
+                }
+              ]
+          },
+          {
             title: "Development Tools",
-            collapsable: false,
             children: [
               {
-                title: "Tools",
-                children: [
-                  "en/tools/Git",
-                  "en/tools/Markdown"]
+                title: 'Git',
+                children: ["en/tools/Git/"]
+              },
+              {
+                title: 'Markdown',
+                children: ["en/tools/Markdown/"]
               }
             ]
            }
