@@ -1,9 +1,7 @@
 {
   "scripts": {
     "dev": "vuepress dev ",
-    "build": "vuepress build ",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d .vuepress/dist"
+    "build": "vuepress build "
   },
   "license": "ISC",
   "devDependencies": {
