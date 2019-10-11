@@ -1,3 +1,5 @@
+https://technotes-543930.netlify.com/
+
 ---
 home: true
 heroImage: /images/icon.png
