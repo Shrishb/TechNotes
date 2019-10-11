@@ -3,7 +3,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
   plugins: ['@vuepress/pwa'],
-  base: "/technotes/",
+  base: "/",
   title: "Personal Tech notes",
   redirectPath: "/en/",
   locales: {
